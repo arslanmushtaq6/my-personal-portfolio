@@ -8,7 +8,7 @@ const Footer = () => {
 
                 <div className='flex flex-col gap-8 justify-center'>
                     <h1 className='text-3xl md:text-3xl leading-none'>About</h1>
-                    <p className='text-xl text-[#b9b9b9] font-light'>Hi, my name is Vito Medlej and I have created the OnBeirut Agency which aims to solve various issues small lebanese businesses face. You are free to use the website as a template for yourself as long as you give credit.</p>
+                    <p className='text-xl text-[#b9b9b9] font-light'>Hi, my name is Arslan Mushtaq and My aim to solve various issues small Pakistani businesses face. You are free to use the website as a template for yourself as long as you give credit.</p>
                 </div>
 
                 <div className='flex flex-col gap-8 justify-center'>

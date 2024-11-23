@@ -8,7 +8,7 @@ const Hero = () => {
             <div className='flex flex-col gap-8 justify-center'>
                 <h1 className='text-5xl md:text-7xl font-bold leading-none'>The place where your business expands</h1>
                 <p className='text-xl text-[#b9b9b9]'>
-                    Hey there! Call me Vito Medlej. I enjoy creating kickass websites and web/mobile apps, ones that suit your desires and needs using latest technologies and cleanest design patterns.
+                    Hey there! Call me Arslan Mushtaq. I enjoy creating web apps, ones that suit your desires and needs using latest technologies and cleanest design patterns.
                 </p>
                 <div className='flex gap-6'>
                     <Link to="/projects">
