@@ -13,7 +13,7 @@ const Navbar = () => {
         setIsSidebarOpen(!isSidebarOpen);
     };
 
-    const closeSidebar = () => {
+    const handleCloseSidebar = () => {
         setIsSidebarOpen(false);
     };
 
@@ -24,7 +24,6 @@ const Navbar = () => {
             {/* Overlay */}
             {isSidebarOpen && (
                 <div
-                    onClick={closeSidebar}
                     className="fixed inset-0 bg-black bg-opacity-50 z-10"
                 ></div>
             )}
@@ -32,7 +31,7 @@ const Navbar = () => {
             {/* Sidebar */}
             <div className={`fixed top-0 right-0 h-full w-64 bg-[#121212] text-white z-20 transform ${isSidebarOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300`}>
                 <div className="p-4">
-                    <button onClick={closeSidebar} className="absolute top-4 right-4 text-white text-3xl">
+                    <button className="absolute top-4 right-4 text-white text-3xl">
                         <HiX />
                     </button>
 
@@ -41,25 +40,25 @@ const Navbar = () => {
                     <ul className='flex flex-col gap-4 pt-8 border-t-2 border-[#272727]'>
                         <li className="py-2 px-4 flex items-center gap-6 hover:bg-gray-700 rounded">
                             <FaHome />
-                            <Link to="/">
+                            <Link to="/" onClick={handleCloseSidebar}>
                                 Home
                             </Link>
                         </li>
                         <li className="py-2 px-4 flex items-center gap-6 hover:bg-gray-700 rounded">
                             <FaInfoCircle />
-                            <Link to="/about">
+                            <Link to="/about" onClick={handleCloseSidebar}>
                                 About
                             </Link>
                         </li>
                         <li className="py-2 px-4 flex items-center gap-6 hover:bg-gray-700 rounded">
                             <FaBox />
-                            <Link to="/projects">
+                            <Link to="/projects" onClick={handleCloseSidebar}>
                                 Projects
                             </Link>
                         </li>
                         <li className="py-2 px-4 flex items-center gap-6 hover:bg-gray-700 rounded">
                             <FaPhoneAlt />
-                            <Link to="/contact">
+                            <Link to="/contact" onClick={handleCloseSidebar}>
                                 Contact
                             </Link>
                         </li>

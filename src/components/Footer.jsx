@@ -23,9 +23,9 @@ const Footer = () => {
                 <div className='flex flex-col gap-8 justify-center'>
                     <h1 className='text-3xl md:text-3xl leading-none'>Contact</h1>
                     <div className='flex flex-col gap-6'>
-                        <Link to="#" className='hover:text-blue-700'>Github</Link>
-                        <Link to="#" className='hover:text-blue-700'>arslanmushtaq588@gmail.com</Link>
-                        <Link to="#" className='hover:text-blue-700'>+923015055833</Link>
+                        <Link to="https://github.com/arslanmushtaq6" className='hover:text-blue-700'>Github</Link>
+                        <Link to="/" className='hover:text-blue-700'>arslanmushtaq588@gmail.com</Link>
+                        <Link to="/" className='hover:text-blue-700'>+923015055833</Link>
                     </div>
                 </div>
 
