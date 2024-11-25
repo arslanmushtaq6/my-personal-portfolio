@@ -10,10 +10,10 @@ const Aboutme = () => {
                     <img src={image} alt="" className='rounded' />
                 </div>
                 <div className='flex flex-col gap-8 justify-center'>
-                    <h1 className='text-3xl md:text-3xl lg:text-6xl font-bold leading-none'>About Me, Im Vito Medlej</h1>
+                    <h1 className='text-3xl md:text-3xl lg:text-6xl font-bold leading-none'>About Me, I'm Arslan Mushtaq</h1>
                     <p className='md:text-sm lg:text-xl text-[#b9b9b9] font-light'>
-                        I'm Islamabad Pakistan-based software developer. I've been building and working on that for the past 3 years now.<br /> <br />
-                        Being self-taught made me appreciate education; thus, I'm graduated Bachelor of Science Computer Science simultaneously. Technology are my passions. <br /> <br />
+                        I'm Islamabad Pakistan-based Front End developer.<br /> <br />
+                        Being self-taught made me appreciate education; thus, I've done my graduation in Bachelor of Science Computer Science simultaneously. Technology are my passions. <br /> <br />
                         Aside from working hard, I tend to enjoy simple things like reading, petting cats, hitting the gym, and other things we humans do. If any of what I said seems interesting, then please do not hesitate to send me a message.
                     </p>
                 </div>

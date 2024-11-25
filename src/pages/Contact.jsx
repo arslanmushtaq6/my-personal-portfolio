@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const Contact = () => {
+
   return (
     <div className='gap-4 w-full px-4 container mx-auto text-white py-32 border-b border-opacity-20 border-slate-300'>
       <div className='flex flex-col gap-8 justify-center text-center'>
